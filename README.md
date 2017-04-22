@@ -21,4 +21,4 @@ Flow will be like:
 3. after logging into application user will be directed to helper dashboard
 4. This dashboard contains various links to chatbot which interacts with a human to get information regarding their issuses
 5. This conversational api has been built using chatbot java script library
-6. While using chatbot library we need define various patterns for each issue so that bot will interact with human properly
+6. While using chatbot library we need to define various patterns for each issue so that bot will interact with human properly
