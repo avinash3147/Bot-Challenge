@@ -1,6 +1,7 @@
 # Bot-Challenge
 
 Steps for running application:
+
 1. Download or clone the project to local machine
 2. Extract the files to a working directory
 3. Move to working directory
@@ -12,4 +13,12 @@ Work Flow Explanation:
 2. server.js file is used to load all modules requried for this application to run
 3. Package.json file contains all the dependencies
 4. index.html is used to load all the scripts, css, libraries and controller files
-5. 
+
+Flow will be like: 
+
+1. user has to register
+2. user has to use his email and password to log in to application
+3. after logging into application user will be directed to helper dashboard
+4. This dashboard contains various links to chatbot which interacts with a human to get information regarding their issuses
+5. This conversational api has been built using chatbot java script library
+6. While using chatbot library we need define various patterns for each issue so that bot will interact with human properly
