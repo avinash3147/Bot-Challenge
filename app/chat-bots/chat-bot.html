@@ -1,0 +1,37 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <center>
+        <div class="btn-group btn-group-lg pull-right" role="group">
+          <button type="button" ui-sref="home" class="btn btn-default">Back</button>
+          <button type="button" ng-click="logOut()" class="btn btn-primary">Logout</button>
+        </div>
+      </center>
+    </div>
+  </div>
+  <br>
+  <div class="row">
+    <div class="col-md-11 col-md-offset-1">
+        <div class="panel panel-login">
+          <div class="panel-heading">
+            <center><h4>{{title}}</h4></center>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-lg-12">
+                  <center>
+                     <div id="demo">
+                        <input id="humanInput" type="text" placeholder="Enter Your Query Here" />
+                        <div id="chatBot">
+                            <div id="chatBotThinkingIndicator"></div>
+                            <div id="chatBotHistory"></div>
+                        </div>
+                     </div>
+                 </center>
+             </div>
+           </div>
+         </div>
+       </div>
+    </div>
+  </div>
+</div>

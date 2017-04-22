@@ -1,0 +1,90 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-8">
+      <center><h1  style="color:green">Hi {{user}},Welcome to Needle Helper</h1></center>
+    </div>
+    <div class="col-md-4">
+      <br>
+      <center>
+        <button type="button" class="btn btn-primary" ng-click="logOut()">
+              Logout
+        </button>
+      </center>
+    </div>
+  </div>
+  <br><br>
+  <div class="row">
+  <div class="col-md-3 col-md-offset-1">
+    <div class="panel panel-login">
+      <div class="panel-heading">
+        <center><h4>Billing  Queries</h4></center>
+      </div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-success">
+                <a style="cursor:pointer;text-decoration:none;"  ui-sref="incorrect-billing">Incorrect Billing</a>
+              </li>
+              <li class="list-group-item list-group-item-info">
+                <a style="cursor:pointer;text-decoration:none;"  ui-sref="cancellation-fee">Cancellation Fee Charged</a>
+              </li>
+              <li class="list-group-item list-group-item-warning">
+                <a style="cursor:pointer;text-decoration:none;"  ui-sref="need-invoices">Need Invoices</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-md-offset-1">
+    <div class="panel panel-login">
+      <div class="panel-heading">
+        <center><h4>Delivery  Queries</h4></center>
+      </div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-success">
+                <a style="cursor:pointer;text-decoration:none;"  ui-sref="refund-queries">Refund Queries</a>
+              </li>
+              <li class="list-group-item list-group-item-info">
+                <a style="cursor:pointer;text-decoration:none;"  ui-sref="product-damage">Product Damage</a>
+              </li>
+              <li class="list-group-item list-group-item-warning">
+                <a style="cursor:pointer;text-decoration:none;"  ui-sref="delivery-status">Delivery Status</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="col-md-3 col-md-offset-1">
+    <div class="panel panel-login">
+      <div class="panel-heading">
+        <center><h4>Improper Agent Behaviour</h4></center>
+      </div>
+      <div class="panel-body">
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="list-group">
+              <li class="list-group-item list-group-item-success">
+                <a style="cursor:pointer;text-decoration:none;"  ui-sref="time-queries">Agent Timing</a>
+              </li>
+              <li class="list-group-item list-group-item-info">
+                <a style="cursor:pointer;text-decoration:none;"  ui-sref="communication-issues">Agent Communication</a>
+              </li>
+              <li class="list-group-item list-group-item-warning">
+                <a style="cursor:pointer;text-decoration:none;"  ui-sref="behaviour-issues">Agent Behaviour</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
