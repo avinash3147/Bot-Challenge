@@ -13,6 +13,10 @@ Work Flow Explanation:
 2. server.js file is used to load all modules requried for this application to run
 3. Package.json file contains all the dependencies
 4. index.html is used to load all the scripts, css, libraries and controller files
+5. ChatBot folder inside app folder contains all the files required for chatbot queries
+6. login-signup folder inside app folder contains all the files required for displaying login page
+7. Home folder inside app folder contains all files required for displaying queries tabs after logging in
+8. All controllers are located under server/controllers
 
 Flow will be like: 
 
